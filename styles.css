@@ -1,0 +1,131 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7ff;
+    color: #333;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(90deg, #4da8da, #8ecae6);
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffebcd;
+}
+
+.container {
+    padding: 100px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    padding: 60px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#about {
+    background: linear-gradient(135deg, #c3e2ff, #e3f8ff);
+    padding: 80px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    font-size: 2em;
+    color: #4a4e69;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #6c757d;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    text-align: left;
+    margin: 0 auto;
+}
+
+li {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #8ecae6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 4px solid #8ecae6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.work-image {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 4px solid #8ecae6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.achievements-image {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 4px solid #8ecae6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+span {
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
