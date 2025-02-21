@@ -92,7 +92,7 @@ img {
 }
 
 .project-image {
-    width: 80%;
+    width: 100%;
     max-width: 800px;
     height: auto;
     margin: 20px auto;
@@ -103,7 +103,7 @@ img {
 }
 
 .work-image {
-    width: 80%;
+    width: 100%;
     max-width: 800px;
     height: auto;
     margin: 20px auto;
@@ -114,7 +114,7 @@ img {
 }
 
 .achievements-image {
-    width: 80%;
+    width: 100%;
     max-width: 800px;
     height: auto;
     margin: 20px auto;
